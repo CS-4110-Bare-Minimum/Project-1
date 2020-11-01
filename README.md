@@ -7,8 +7,8 @@ Your program should be able to...
 
 
 JFlex Instillation - https://www.jflex.de/
-JFlex Installation Help - https://www.jflex.de/manual.html#Installing
-JFlex 1.8.2 
+... JFlex Installation Help - https://www.jflex.de/manual.html#Installing
+... JFlex 1.8.2 
 
 How to compile and run
 1. With JFlex installed and added to PATH, you need to open the command prompt/terminal window.
