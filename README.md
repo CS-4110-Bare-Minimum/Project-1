@@ -6,7 +6,8 @@ Your program should be able to...
 (2) create a symbol table using the trie structure for all keywords and user-defined identifiers.
 
 
-https://www.jflex.de/
+JFlex Instillation - https://www.jflex.de/
+JFlex Installation Help - https://www.jflex.de/manual.html#Installing
 JFlex 1.8.2 
 
 How to compile and run
