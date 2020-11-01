@@ -16,4 +16,5 @@ How to compile and run
 3. Run JFlex by issuing the jflex command on the .jflex file - jflex project1.jflex
 4. If done corectly, JFlex will output a .java file called Toy.java
 5. You will then need to issue the javac command on the newly outputted .java file - javac Toy.java
-6. The final step is to issue the command: java Toy input.txt
+6. To see the output of input1, type java Toy input1.txt
+7. To see the output of input2, type java Toy input2.txt
