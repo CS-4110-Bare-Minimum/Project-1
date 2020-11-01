@@ -1,0 +1,70 @@
+Script started on Sat Oct 31 21:12:26 2020
+
+[~]$ java Toy input2.txt 
+
+interface id leftbrace rightbrace 
+interface id extends id leftbrace rightbrace 
+
+class id implements id 
+leftbrace 
+double id assignop doubleconstant semicolon 
+double id assignop doubleconstant semicolon 
+int id assignop intconstant semicolon 
+int id assignop intconstant semicolon 
+string id assignop stringconstant 
+boolean id assignop booleanconstant semicolon 
+void id leftparen rightparen 
+leftbrace 
+id leftparen stringconstant comma id rightparen semicolon 
+while leftparen not id rightparen 
+leftbrace 
+for leftparen int id assignop intconstant semicolon id less id semicolon id assignop id plus intconstant rightparen 
+leftbrace 
+id assignop id plus id semicolon 
+if leftparen id mod intconstant equal intconstant rightparen 
+leftbrace 
+id assignop id plus id semicolon 
+rightbrace 
+else 
+leftbrace 
+id assignop id minus id semicolon 
+rightbrace 
+rightbrace 
+if leftparen id greater id rightparen 
+leftbrace 
+id assignop booleanconstant semicolon 
+rightbrace 
+else if leftparen id less id rightparen 
+leftbrace 
+id assignop id multiplication id semicolon 
+rightbrace 
+else if leftparen id equal id rightparen 
+leftbrace 
+break semicolon 
+rightbrace 
+rightbrace 
+rightbrace 
+int leftbracket rightbracket id leftparen string id comma double id rightparen 
+leftbrace 
+println leftparen stringconstant comma id comma stringconstant comma id comma stringconstant rightparen semicolon 
+id assignop null semicolon 
+if leftparen id greaterequal intconstant rightparen 
+leftbrace 
+println leftparen id comma stringconstant rightparen semicolon 
+rightbrace 
+else if leftparen id lessequal intconstant rightparen 
+leftbrace 
+int id leftbracket rightbracket assignop newarray leftparen id comma int rightparen semicolon 
+rightbrace 
+if leftparen id notequal intconstant rightparen 
+leftbrace 
+id assignop id multiplication intconstant division intconstant semicolon 
+readln leftparen id comma id rightparen semicolon 
+rightbrace 
+return id semicolon 
+rightbrace 
+rightbrace 
+[~]$ exit
+exit
+
+Script done on Sat Oct 31 21:12:38 2020
