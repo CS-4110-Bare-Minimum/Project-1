@@ -6,9 +6,9 @@ Your program should be able to...
 (2) create a symbol table using the trie structure for all keywords and user-defined identifiers.
 
 
-JFlex Installation - https://www.jflex.de/
-... JFlex Installation Help - https://www.jflex.de/manual.html#Installing
-... JFlex 1.8.2 
+JFlex Installation - https://www.jflex.de/  
+JFlex Installation Help - https://www.jflex.de/manual.html#Installing  
+JFlex 1.8.2 
 
 How to compile and run
 1. With JFlex installed and added to PATH, you need to open the command prompt/terminal window.
