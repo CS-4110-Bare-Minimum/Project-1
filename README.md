@@ -1,5 +1,11 @@
 # Project-1
 
+Outline: You are to implement a lexical analyzer for a simple object-oriented programming language called Toy. 
+Your program should be able to...
+(1) translate any input Toy program into a sequence of tokens, and 
+(2) create a symbol table using the trie structure for all keywords and user-defined identifiers.
+
+
 https://www.jflex.de/
 JFlex 1.8.2 
 
