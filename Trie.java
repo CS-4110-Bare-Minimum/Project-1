@@ -50,7 +50,7 @@ public class Trie {
 	    			arraySymbol.add(input.charAt(k));
 	    			arrayNext.add(-1);
 	    		}
-	    		arraySymbol.add('-');								//Using '-' as the delim.
+	    		arraySymbol.add('*');								//Using '*' as the delim.
 	    		arrayNext.add(-1);
 	    	}
 	    	//if switch value is already initialized
@@ -74,7 +74,7 @@ public class Trie {
 		    					arrayNext.add(-1);
 	    						k++;
 	    					}
-	    					arraySymbol.add('-');
+	    					arraySymbol.add('*');
 	    				}
 	    			}
 	    		}
@@ -91,6 +91,11 @@ public class Trie {
 	    System.out.print("switch: ");
 	    for(int i = 0; i < arraySwitch.size(); i++) {
 	    	System.out.print(arraySwitch.get(i) + "  ");
+	    }
+	    System.out.println();
+	    System.out.print("symbol:   ");
+	    for(int i = 0; i < arraySymbol.size(); i++) {
+	    	System.out.print(arraySymbol.get(i) + "  ");
 	    }
 	    System.out.println();
 	    System.out.print("next:   ");
