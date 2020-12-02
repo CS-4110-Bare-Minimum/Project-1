@@ -1,6 +1,3 @@
-Script started on Sat Oct 31 21:10:26 2020
-
-[~]$ java Toy input1.txt 
 int id leftparen int id rightparen leftbrace 
 if leftparen id greater intconstant rightparen return id multiplication id leftparen id minus intconstant rightparen semicolon 
 else return intconstant semicolon 
@@ -25,7 +22,3 @@ id assignop stringconstant semicolon
 while leftparen id assignop leftparen id division intconstant rightparen less intconstant rightparen println leftparen id comma stringconstant rightparen semicolon 
 id assignop newarray leftparen intconstant comma int rightparen semicolon 
 rightbrace 
-[~]$ exit
-exit
-
-Script done on Sat Oct 31 21:10:39 2020

@@ -1,6 +1,3 @@
-Script started on Sat Oct 31 21:12:26 2020
-
-[~]$ java Toy input2.txt 
 
 interface id leftbrace rightbrace 
 interface id extends id leftbrace rightbrace 
@@ -64,7 +61,3 @@ rightbrace
 return id semicolon 
 rightbrace 
 rightbrace 
-[~]$ exit
-exit
-
-Script done on Sat Oct 31 21:12:38 2020
